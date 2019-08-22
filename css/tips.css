@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tip {position:static; display:inline-block; border-bottom:1px dotted #000000; font-style:normal; cursor:pointer;}
+
+.tip::after {content:url(../images/tip_icon.png); cursor:pointer;}
+
+.tip:focus {border:1px dashed;}
+
+.tip {cursor:pointer; font-style:normal;}
+
+.tipBox {width:0; height:0; position:fixed; top:-9999px; overflow:hidden;}
